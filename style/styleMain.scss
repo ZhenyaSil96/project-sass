@@ -1,0 +1,170 @@
+
+@import"mixin";
+
+body{
+  font-size: $fz;
+  font-family: $ff;
+}
+
+@import"styleHead";
+
+.blockOne{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.blockOne{
+  padding-left: $widthBlock;
+  padding-right: $heightBlock;
+  
+  div{
+    padding: 2%;
+    margin: 1%;
+  }
+  
+  img{
+   width: 100%;
+  }
+
+.element{
+    width: 180px;
+    border: 1px solid black;
+    background: $colorSilver;
+  }
+}
+
+.blockTwo{
+  display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  padding-left: $pdBlockTwo;
+  padding-right: $pdBlockTwo;
+
+  div{
+    padding: 1%;
+    margin: 0.5%;
+  }
+
+  img{
+    width: 100%;
+  } 
+}
+
+.element1{
+  width: 200px;
+  border: 1px solid greenyellow;
+
+  h1{
+    color: blue;
+
+    &:hover{
+      color: brown;
+      font-family: $ff1;
+    }
+  }
+
+  p{
+    color: cornflowerblue;
+
+    &:hover{
+      color: darkorange;
+    }
+  }
+
+  h2{
+    color: violet;
+  }
+}
+
+.blockThree{
+    overflow: hidden;
+    z-index: -100;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-top: 45%;
+  }
+
+  .container-video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  .video-text{
+      position: absolute;
+      top:0;
+      left:0;
+      width: 100%;
+      height: 100%;
+      z-index: 4;
+      color: rgb(255, 8, 0);
+      text-align: center;
+      margin-top: 25%;
+  }
+
+  
+  .video-text button{
+    background: blueviolet;
+    color: white;
+    padding: 1.5%;
+    border-radius: 25px;
+    margin: 1%;
+    border: 0;
+  }
+
+  .blockFour{
+
+    h1{
+      text-align: center;
+      font-family: $ff1;
+    }
+  }
+  .container2 ul, .container2 li{
+      margin:0;
+      padding: 0;
+      list-style-type:none;
+  }
+
+  .element2{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, .5);
+    color: #fff;
+    padding-top:80px;
+    text-align: center;
+    display: none;
+    -webkit-transition: all .25s;
+    -o-transition: all .25s;
+    transition: all .25s;
+    transform: scale(0);
+  }
+
+  .container2 li{
+    display: inline-block;
+    position: relative;
+  }
+  .container2 li:hover .element2{
+    display: block;
+    transform: scale(1);
+     }
+
+  @import "styleFooter";
+
+
+
+
+
+
+
+
+
+
+
+    
+
+

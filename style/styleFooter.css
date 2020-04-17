@@ -1,0 +1,9 @@
+.foot {
+  text-align: center;
+  padding: 1%;
+  color: white;
+  background: grey; }
+  .foot h3:hover {
+    color: yellow; }
+
+/*# sourceMappingURL=styleFooter.css.map */

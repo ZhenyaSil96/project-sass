@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,KAAM;ECaF,UAAU,EAAE,MAAM;EAClB,OAAO,EAAE,EAAE;EACX,KAAK,EAAC,KAAK;EDbX,UAAU,EAAE,IAAI;ECchB,cAAQ;IACN,KAAK,EAAE,MAAM",
+"sources": ["styleFooter.scss","mixin.scss"],
+"names": [],
+"file": "styleFooter.css"
+}

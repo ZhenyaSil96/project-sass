@@ -1,0 +1,22 @@
+@mixin large-head {
+    font-family: 'Inconsolata', monospace;
+    color: white;
+    font-size: 130%;
+}
+
+$fz: 14px;
+$ff: Verdana, Tahoma, sans-serif;
+$ff1: Georgia;
+$colorSilver: #2cc7c7;
+$widthBlock: 25%;
+$heightBlock: 20%;
+$pdBlockTwo: 15%;
+
+@mixin large-footer {
+    text-align: center;
+    padding: 1%;
+    color:white;
+    h3:hover{
+      color: yellow;
+    }
+}

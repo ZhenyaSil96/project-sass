@@ -1,0 +1,7 @@
+@import "mixin";
+
+.foot {
+  @include large-footer;
+    background: grey;
+    
+}
